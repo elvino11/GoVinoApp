@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.govinoapp">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.GoVinoApp">
+        <activity
+            android:name=".Activity.MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Activity.RS"></activity>
+        <activity android:name=".RumahSakit.RSAwalBross"></activity>
+        <activity android:name=".RumahSakit.RSEkaHospital"></activity>
+        <activity android:name=".RumahSakit.RSJiwaTampan"></activity>
+        <activity android:name=".RumahSakit.RSTabrani"></activity>
+        <activity android:name=".Activity.Police"></activity>
+        <activity android:name=".Polisi.PoldaRiau"></activity>
+        <activity android:name=".Polisi.PolrestaPekanbaru"></activity>
+        <activity android:name=".Polisi.PolsekRumbai"></activity>
+        <activity android:name=".Polisi.PolsekTampan"></activity>
+        <activity android:name=".Activity.Supermarket"></activity>
+        <activity android:name=".Supermarket.MallSKA"></activity>
+        <activity android:name=".Supermarket.MallCiputraSeraya"></activity>
+        <activity android:name=".Supermarket.LivingWorldPekanbaru"></activity>
+        <activity android:name=".Supermarket.TransmartPekanbaru"></activity>
+        <activity android:name=".Activity.Sekolah"></activity>
+        <activity android:name=".Sekolah.SMAN1Pekanbaru"></activity>
+        <activity android:name=".Sekolah.SMAN1Rengat"></activity>
+        <activity android:name=".Sekolah.UINSuska"></activity>
+        <activity android:name=".Sekolah.UNRI"></activity>
+
+    </application>
+
+</manifest>
